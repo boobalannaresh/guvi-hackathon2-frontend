@@ -20,6 +20,7 @@ function Dashboard() {
       contextData.setCount(values.count)
     }
   })
+
   let fetchData = async () => {
     try {
       let res = await axios.get(`${config.api}/dashboard`, {
@@ -34,6 +35,7 @@ function Dashboard() {
       console.log(error);
     }
   };
+  
   useEffect(() => {
     fetchData();
   }, []);

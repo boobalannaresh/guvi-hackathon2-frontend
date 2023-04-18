@@ -1,3 +1,3 @@
 export const config = {
-    api : 'https://bookmyshow-task.herokuapp.com'
+    api : 'https://guvi-hackathon2-backend-weld.vercel.app'
 }

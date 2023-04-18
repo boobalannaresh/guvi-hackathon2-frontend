@@ -72,8 +72,8 @@
 	transform: skewX(-25deg);
 }
 .hover14 figure:hover::before {
-	-webkit-animation: shine .50s;
-	animation: shine .50s;
+	-webkit-animation: shine .75s;
+	animation: shine .75s;
 }
 @-webkit-keyframes shine {
 	100% {

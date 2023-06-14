@@ -35,7 +35,7 @@ function Dashboard() {
       console.log(error);
     }
   };
-  
+
   useEffect(() => {
     fetchData();
   }, []);
@@ -73,7 +73,7 @@ function Dashboard() {
               />
             </div>
 
-            <button type="submit" className="btn btn-danger m-4 p-2 ">
+            <button type="submit" className="btn btn-danger m-5 p-2 ">
               Submit
             </button>
           </form>
@@ -85,7 +85,7 @@ function Dashboard() {
                   <div className="hover14 row">
                     <div class="card" style={{ width: "18rem", height: "30%" }}>
                       <figure>
-                        <img style={{ marginTop: "-80px", height: "400px" }}
+                        <img style={{ marginTop: "0px", height: "300px" }}
                           src={`${movie.img}`}
                           class="card-img-top img-thumbnail"
                           alt="..."

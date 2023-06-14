@@ -114,8 +114,10 @@ height: 500px;
   transition: 1s ease;
   }
   .loginlogo{
-    width:500px ;
-    height:150px ;
+    width:250px;
+    height:70px ;
+    
+
   }
 .shadow{
   text-shadow: 4px 8px 12px red;
@@ -132,6 +134,8 @@ height: 500px;
 .login{
   background-image: url("https://inc42.com/wp-content/uploads/2019/12/Untitled-design-2019-12-09T080908.682.jpg") ;
   background-position: center;
+  background-repeat: no-repeat;
+  max-width:100%;
 }
 
 .label{
